@@ -1,0 +1,29 @@
+{
+  "name": "webpack-demo",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "test": "echo 'Error: There are no tests configured' && exit 0",
+    "build": "webpack",
+    "start": "echo 'Serving App on Port 8081' && npm run build && http-server dist/ --colors"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonathanengelbert/webpack-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jonathanengelbert/webpack-demo/issues"
+  },
+  "homepage": "https://github.com/jonathanengelbert/webpack-demo#readme",
+  "devDependencies": {
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "lodash": "^4.17.15"
+  }
+}
